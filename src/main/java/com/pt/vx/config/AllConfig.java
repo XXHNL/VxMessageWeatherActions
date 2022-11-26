@@ -25,7 +25,7 @@ public class AllConfig {
     public static final String VxAppId = "wx99e15102a9200ee2";
     public static final String VxAppSecret = "e4b0849af95d2c9da15baff3de0fb373";
     public static final String WeatherKey = "68d3cb8db611e1f2ff8748ec53e36286";
-    public static final String WeatherKey_HeFeng = "和风天气KEY";
+    public static final String WeatherKey_HeFeng = "8afeba88692f4b7ab7284e970b9f3ea3";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
     //系统开关
@@ -82,7 +82,7 @@ public class AllConfig {
                 "张懒虫吖", //咋称呼这个人
                 "山西省太原市万柏林区", //这个人的详细地址
                 "太原市", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"张锦涛小朋友生日快乐！！"),
+                new BirthDay(2003,2,15,true,false,"张锦涛小朋友生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
