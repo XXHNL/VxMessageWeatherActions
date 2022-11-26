@@ -22,9 +22,9 @@ import java.util.List;
  *               -- 2022/10/25
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wx99e15102a9200ee2";
+    public static final String VxAppSecret = "e4b0849af95d2c9da15baff3de0fb373";
+    public static final String WeatherKey = "68d3cb8db611e1f2ff8748ec53e36286";
     public static final String WeatherKey_HeFeng = "和风天气KEY";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
@@ -44,9 +44,9 @@ public class AllConfig {
     public static final FunctionConfig open_weather = new FunctionConfig(true,"#33A1C9"); //是否开启天气预报
     public static final FunctionConfig open_other_info= new FunctionConfig(true,"#DC143C"); //是否开启额外信息（需要开启日期计算或天气预报）
 
-    public static final String info_weather_rain = "出门记得带伞哦~"; //天气预报有雨的时候展示的额外信息
-    public static final String info_weather_temperature_0 = "温度过低，加厚加厚！！！"; //温度≤0的时候展示的额外信息
-    public static final String info_weather_temperature_10 = "温度很低，多穿点衣服哦！"; //温度≤10的时候展示的额外信息
+    public static final String info_weather_rain = "出门记得带伞哦~小懒虫"; //天气预报有雨的时候展示的额外信息
+    public static final String info_weather_temperature_0 = "温度过低，衣服加厚加厚加厚！！！"; //温度≤0的时候展示的额外信息
+    public static final String info_weather_temperature_10 = "温度很低，多穿点衣服哦！懒虫"; //温度≤10的时候展示的额外信息
     public static final String info_weather_temperature_20 = "温度有点低，注意别着凉啦~"; //温度≤20的时候展示的额外信息
     public static final String info_weather_prefix_day = "白天"; //白天天气的前缀，比如温度≤0的时候就会展示为： 白天温度过低，加厚加厚！！！
     public static final String info_weather_prefix_night = "晚上"; //晚上天气的前缀
@@ -66,8 +66,8 @@ public class AllConfig {
     public static final FunctionConfig open_poetry = new FunctionConfig(false,"#FF7F00"); //是否开启随机诗句(暂时无法使用了)
     public static final FunctionConfig open_english = new FunctionConfig(false,"#FF7F00"); //是否开启每日英语(暂时无法使用了)
     public static final FunctionConfig open_miyu = new FunctionConfig(false,"#FF7F00"); //是否开启谜语(暂时无法使用了)
-    public static final FunctionConfig open_horoscope= new FunctionConfig(false,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
-    public static final FunctionConfig random_module = new FunctionConfig(true,"#FF7F00"); //随机一个开启了的额外类型消息(开启以后，只会推送随机的)
+    public static final FunctionConfig open_horoscope= new FunctionConfig(true,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
+    public static final FunctionConfig random_module = new FunctionConfig(false,"#FF7F00"); //随机一个开启了的额外类型消息(开启以后，只会推送随机的)
 
     private static void init(){
         //如果要多个人的话，就复制这个一遍，然后填写里面的内容。这里默认两个人,大伙应该是两个人吧（笑）
@@ -77,12 +77,12 @@ public class AllConfig {
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         //new BirthDay()里面代表[年]、[月]、[日]、[是否是农历(true为农历、false为公历)]、[是否统计天数(true为统计，false为倒计时)]、[倒计时到0天提示信息(如果类型为统计可以不填)]
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
+                "oJLRj6MWShqoW7RKF_inSh8mMLLo", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "BlAXnN8YHnIwgECETT9CCtyMJhFmzU7qMsNAjYS89Jw", //要给这个人发送的模板ID
+                "张懒虫吖", //咋称呼这个人
+                "山西省太原市万柏林区", //这个人的详细地址
+                "太原市", //这个人在的城市
+                new BirthDay(1999,2,15,true,false,"张锦涛小朋友生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
