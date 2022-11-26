@@ -82,7 +82,7 @@ public class AllConfig {
                 "张懒虫吖", //咋称呼这个人
                 "山西省太原市万柏林区", //这个人的详细地址
                 "太原市", //这个人在的城市
-                new BirthDay(2003,2,15,true,false,"张锦涛小朋友生日快乐！！"),
+                new BirthDay(2001,6,19,true,"张锦涛小朋友生日快乐！！"),
             new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
