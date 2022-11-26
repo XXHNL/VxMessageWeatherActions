@@ -55,14 +55,14 @@ public class AllConfig {
 
 
     //额外类型消息
-    public static final FunctionConfig open_xinGuan_info = new FunctionConfig(true,"#FF7F00"); //是否开启用户城市新冠信息查询
+    public static final FunctionConfig open_xinGuan_info = new FunctionConfig(false,"#FF7F00"); //是否开启用户城市新冠信息查询
     public static final FunctionConfig open_history_today = new FunctionConfig(false,"#FF7F00"); //是否开启历史上的今天
     public static final FunctionConfig open_qinghua = new FunctionConfig(true,"#FF7F00"); //是否开启情话一句
     public static final FunctionConfig open_dongman = new FunctionConfig(false,"#FF7F00"); //是否开启动漫台词(暂时无法使用了)
-    public static final FunctionConfig open_tiangou = new FunctionConfig(true,"#FF7F00"); //是否开启舔狗日记
-    public static final FunctionConfig open_world_read = new FunctionConfig(true,"#FF7F00"); //是否开启世界新闻
+    public static final FunctionConfig open_tiangou = new FunctionConfig(false,"#FF7F00"); //是否开启舔狗日记
+    public static final FunctionConfig open_world_read = new FunctionConfig(false,"#FF7F00"); //是否开启世界新闻
     public static final FunctionConfig open_random_read = new FunctionConfig(true,"#FF7F00"); //是否开启随机短句
-    public static final FunctionConfig open_wozairenjian = new FunctionConfig(true,"#FF7F00"); //是否开启散文集我在人间凑日子
+    public static final FunctionConfig open_wozairenjian = new FunctionConfig(false,"#FF7F00"); //是否开启散文集我在人间凑日子
     public static final FunctionConfig open_poetry = new FunctionConfig(false,"#FF7F00"); //是否开启随机诗句(暂时无法使用了)
     public static final FunctionConfig open_english = new FunctionConfig(false,"#FF7F00"); //是否开启每日英语(暂时无法使用了)
     public static final FunctionConfig open_miyu = new FunctionConfig(false,"#FF7F00"); //是否开启谜语(暂时无法使用了)
@@ -83,9 +83,7 @@ public class AllConfig {
                 "山西省太原市万柏林区", //这个人的详细地址
                 "太原市", //这个人在的城市
                 new BirthDay(2003,2,15,true,false,"张锦涛小朋友生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+               
         ));
 
         userList.add(getUser(
